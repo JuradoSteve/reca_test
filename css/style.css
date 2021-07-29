@@ -1,0 +1,59 @@
+/* Comentarios */
+/** {
+  color: red;  
+}*/
+
+/*TIPO*/
+p {
+    color: #235815;
+}
+
+h2 {
+    color: rgb(83, 6, 128);
+}
+
+/*PSEUDO-TIPO*/
+b:hover{
+  color: rgb(51,254,25);
+}
+
+/*CLASES*/
+.parrafo-2 {
+  color: #545640;
+}
+/*PSEUDO-CLASES*/
+[casa="parrafo-3"]{
+  color: rgba(251,50,25,0.5)
+}
+
+/*IDENTIFICADORES*/
+#parrafo-1{
+  color: rgb(221, 9, 9);
+}
+
+/*======================*/
+/*=====================*/
+h2 p{
+  color:rgb(25,56,25)
+}
+
+h3 p b{
+  color:rgb(2, 9, 9)
+}
+
+footer{
+	align-self: flex-end;
+	background-color: #313131;
+	line-height: 3;
+	text-align: center;
+	width: 100%;
+}
+
+footer a i{
+	color: #7E7E7E;
+	padding: 20px;
+	border-color:none;
+}
+footer a i:hover{
+	color:white;
+}
